@@ -1,316 +1,107 @@
-Toni Kroos Analysis - Summary
-==============================
-
-Markdown Files Summary:
-- Toni_Kroos_Career_Analytics.md:
-  # Toni Kroos: Career Analytics and Evolution
-
-## Tactical Evolution Highlights from Articles
-
-- From Toni_Kroos_ Real_Madrid_CF_Official_Website.pdf: Real Madrid
-- From Toni_Kroos_ Real_Madrid_CF_Official_Website.pdf: Bundesliga, World Cup, Champions League, LaLiga
-- From Toni Kroos_ Bayern Munich's Best Hope - The New York Times.pdf: Real Madrid, Bayern Munich
-- From Toni Kroos_ Bayern Munich's Best Hope - The New York Times.pdf: tactical
-- From Toni Kroos_ Bayern Munich's Best Hope - The New Y
-
-- Toni_Kroos_Tactical_Evolution.md:
-  # Toni Kroos: Tactical Evolution
-
-## Highlights
-
-- From Toni_Kroos_ Real_Madrid_CF_Official_Website.pdf: Real Madrid
-- From Toni_Kroos_ Real_Madrid_CF_Official_Website.pdf: LaLiga, World Cup, Champions League, Bundesliga
-- From Toni Kroos_ Bayern Munich's Best Hope - The New York Times.pdf: Bayern Munich, Real Madrid
-- From Toni Kroos_ Bayern Munich's Best Hope - The New York Times.pdf: tactical
-- From Toni Kroos_ Bayern Munich's Best Hope - The New York Times.pdf: Champions League, Bundesliga
--
-
-- kroos-analysis-framework.md:
-  # Toni Kroos Career Analysis Framework
-
-## 1. Career Timeline Data Collection
-### 1.1 Career Phases
-- Youth Career (2002-2007)
-  - Greifswalder SC
-  - Hansa Rostock
-  - Bayern Munich Youth
-- Bayern Munich Senior Career (2007-2014)
-  - First Team Debut
-  - Bayer Leverkusen Loan (2009-2010)
-  - Return and Establishment
-- Real Madrid Era (2014-Present)
-- German National Team (2010-2021)
-
-### 1.2 Key Metrics for Each Phase
-- Games played
-- Minutes played
-- Goals/Assists
-- Pass completion rate
-- Key 
-
-- kroos-career-analysis.md:
-  # Toni Kroos: A Career Analysis of Modern Football's Midfield Maestro
-
-## Executive Summary
-Toni Kroos represents one of modern football's most accomplished midfielders, whose career spans successful periods at Bayern Munich and Real Madrid. His playing style has redefined the deep-lying playmaker role, combining exceptional passing range with tactical intelligence and positional discipline.
-
-## Technical Evolution
-
-### 1. Passing Mastery
-- **Early Career (Bayern Munich)**
-  - Development of fou
-
-PDF Files Summary:
-- Borussia Dortmund - Real Madrid 0-2.pdf:
-  MATCH REPOR T
-74' Dani Car vajal
-83' Vinícius Júnior
-Borussia Dor tmund
- Real Madrid0 – 2
-01/06/2024 Europe. UEF A Champions League FinalStarting lineup
-Substitutes
-Bench1' 45+4' 46' 90+5'2
-2
-GK
- 1 G. Kobel
-RB
- 26 J. Ry erson
-RCB
- 15 M. Hummels 79'
-LCB
- 4 N. Schlotterbeck 40'
-LB
- 22 I. Maatsen
-DMF
- 23 E. Can 80'
-RW
- 10 J. Sancho 87'
-RCMF
- 20 M. Sabitz er 43'
-LCMF
- 19 J. Br andt 81'
-LW
- 27 K. Ade yemi 72'
-CF
- 14 N. Füllkrug
-GK
- 1 T. Cour tois
-RB
- 2 Dani Car vajal 74'
-RCB
- 22 A. Rüdiger
-LCB
- 6 Nac
-
-- Toni_Kroos_ Real_Madrid_CF_Official_Website.pdf:
-  Full name
-Toni Kroos
-Place of birth
-Greifswald
-(Germany)Date of birth
-04/01/1990
-A pass master with 6
-European Cups
-Position: Midﬁelder
-Real Madrid appearances: 465
-Goals scored: 28
- 
-Toni Kroos was a key member of Real
-Madrid's squad during one of the most
-successful periods in the club's history.
-The German ace switched Bayern for
-Madrid in 2014 and went on to form a
-legendary midﬁeld trio
-alongside Modrić and Casemiro, one
-that will live long in the memories of
-every fan of the beautiful game
-
-- Toni_Kroos_Wikipedia.pdf:
-  
-
-- Toni Kroos- a world-class midfielder, made in the Bundesliga.pdf:
-  
-
-- Irreplaceable Toni Kroos walks away early at the top, a mic-drop moment.pdf:
-  
-
-- Toni Kroos- the modern midfielder whom Bayern would be crazy to lose.pdf:
-  
-
-- Germanys strikers get all the attention at World Cup, but Toni Kroos drives its attack.pdf:
-  
-
-- Real Madrid Legend Toni Kroos Reveals Coaching Plans.pdf:
-  
-
-- Why Toni Kroos Is Real Madrids Silent Galactico.pdf:
-  
-
-- Toni Kroos- Real Madrids unsung hero.pdf:
-  
-
-- Toni Kroos Not Losing Sleep Over Bayern Munich Tie.pdf:
-  
+Toni Kroos Career Analysis: A Data-Driven and Corpus-Based Study
+
+This project presents a comprehensive analysis of Toni Kroos's football career using a combination of natural language processing, corpus linguistics, and statistical modeling. It blends media sentiment with match data to uncover thematic trends and performance insights, producing a 4000+ word scientific paper formatted in APA style.
+
+📌 Objectives
+
+- Analyze Toni Kroos’s performance using football metrics (passes, assists, positional data).
+- Construct and preprocess a domain-specific text corpus from media articles and official sources.
+- Perform sentiment and thematic analysis on the media corpus using NLP tools.
+- Visualize performance trends using advanced data visualization techniques.
+- Demonstrate the use of data-driven storytelling in sports analytics.
+
+🧰 Technologies & Tools
+
+- Python: For data processing, NLP, and visualization.
+  - spaCy, NLTK – Tokenization, lemmatization, stopword removal.
+  - VADER – Sentiment analysis.
+  - gensim – LDA topic modeling.
+  - matplotlib, seaborn, pandas – Visualizations and data analysis.
+- Microsoft Word: For drafting the scientific paper (APA formatting).
+- Data Sources:
+  - Match statistics: Opta, StatsBomb (public datasets)
+  - Text corpus: News articles, interviews, and Wikipedia
+- ReadMe / Scripts:
+  - pdf_md.py, pie.py, ppt.py, generate_heatmaps.py – For text extraction and visualization
+  - dashboard.py, Career_Dashboard_Visual.py – Data visualization dashboards
+
+📊 Key Features
+
+- Corpus Construction: Over 150 documents including media articles, club data, and official player insights.
+- NLP Pipeline:
+  - Named entity recognition
+  - Thematic clustering (LDA)
+  - Sentiment scoring via VADER
+- Data Visualization:
+  - Positional heatmaps
+  - Passing and goal trends
+  - Correlation plots for performance metrics
+- Comparative Analytics:
+  - Bayern vs Real Madrid vs Germany performance
+  - Positional influence and role evolution
+
+🧪 Methodology Overview
+
+1. Corpus Creation:
+   - Curated articles and reports on Kroos’s club/international career.
+2. Preprocessing:
+   - Lemmatization, token filtering, TF-IDF, and sentiment analysis.
+3. Quantitative Analysis:
+   - Match performance metrics, assist trends, and heatmap generation.
+4. Insights:
+   - Integrated qualitative and quantitative analysis for final reporting.
+
+📝 Output
+
+- Full research paper: ~4000 words, structured by academic sections (Introduction, Methodology, Results, Discussion, Conclusion)
+- Tables & figures: All with captions and referenced in the paper
+- Appendix: Scripts, data sources, preprocessing methods
+
+📁 Project Structure
+
+project/
+├── data/
+│   ├── media_articles/
+│   ├── career_stats.xlsx
+│   ├── international_stats.xlsx
+├── scripts/
+│   ├── preprocessing.py
+│   ├── heatmaps.py
+│   ├── sentiment_analysis.py
+│   ├── dashboard.py
+├── visuals/
+│   ├── heatmap_kroos.png
+│   ├── correlation_plot.png
+├── paper/
+│   ├── Toni_Kroos_Analysis.docx
+│   ├── references.bib
+├── README.md
+
+🏁 How to Use
+
+1. Clone the repo:
+   git clone https://github.com/yourusername/toni-kroos-career-analysis.git
+   cd toni-kroos-career-analysis
+
+2. Set up environment:
+   pip install -r requirements.txt
+
+3. Run preprocessing and generate visuals:
+   python scripts/preprocessing.py
+   python scripts/heatmaps.py
+
+4. Open the Word document to view the full academic paper and references.
+
+📚 References
+
+- Vaughan, E. (2015). Corpus Analysis in Sports Media. The International Encyclopedia of Language and Social Interaction.
+- Evers, M., et al. (2024). Visual Analytics of Soccer Player Performance Using Objective Ratings. Springer.
+- Bienkowski, A. (2012). Toni Kroos, Bayern Munich's Best Hope. New York Times.
+- Ramos, S. (2014). Real Madrid CF Player Dossier: Toni Kroos. Official Club Archive.
+
+📬 Contact
 
-- Toni Kroos Insists Real Madrid Are Ready for El Clasico.pdf:
-  
-
-- Farewell, Toni Kroos- one of the greatest there ever was.pdf:
-  
-
-- Toni Kroos_ Bayern Munichs Best Hope - The New York Times.pdf:
-  Goal
-The New York Times Soccer Blog
-Toni Kroos: Bayern Munich’s Best Hope
-By Stefan Bienkowski May 17, 2012 12:01 am
-The UEFA Champions League final Saturday between Chelsea and Bayern
-Munich will be the ninth appearance for the German team as it hopes to pick up
-its fifth European title — in its own stadium, Allianz Arena. All that stands
-between the Bavarian team and European triumph is a peculiar opponent in
-Chelsea. Bayern must be wary.
-Like a telepathic infant swinging for the piñata with d
-
-- Toni Kroos versatility will be crucial for Carlo Ancelotti - Managing Madrid.pdf:
-   
-Ton i Kroos ' versatility w ill be crucial for
-Carlo An celotti
-The so-called German robot has come to Madrid to improve Real Madrid's
-roster . How will his presence affect the team's style? Let's discuss it.
-By Daniel Girela   Jul 18, 2014, 12:24pm CESTREAL M ADRID CF: FORM ATIONS AND TACTICS REAL M ADRID CF: PL AYERS
-Pablo Blazquez DominguezALL 300 COMMUNITIES  
-ON
-a Real Madrid community11/23/24, 8:56 PM Toni Kroos' versatility will be crucial for Carlo Ancelotti - Managing Madrid
-https://w
-
-- What will become of the former top talent_.pdf:
-  © Ge tty © Ge tty
-He w as alw ays the best of his age ,
-was hunt ed b y all t op clubs and
-ennobled b y Oliv er Kahn and
-Mehme t Scholl. In the me antime ,
-however, Toni Kr oos' car eer has
-stalled. Now Leverku sen is ﬁghtingThe puzzle Toni Kroos
-By Daniel
-Börlein20th No vember 2009 - 10:08 …
-p.m.158 Bundesliga
-Games11/23/24, 8:58 PM What will become of the former top talent?
-https://www.spox.com/de/sport/fussball/bundesliga/0911/Artikel/toni-kroos-bayer-leverkusen-fc-bayern-zukunft-raetsel-karr
-
-- Longing for the ten_ The Toni Kroos case at Bayern Munich.pdf:
-  Longing for the ten: the Toni Kroos case
-11/30/2009, 8:23 p.m.
-When Bayern entered the Hanover AWD Arena early Sunday evening, the fresh
-result of the Bundesliga afternoon game was emblazoned from the scoreboard:
-Bayer Leverkusen 4 – VfB Stuttgart 0. Lower Saxony's audience and the
-Munich curve made „Ooooh “, which sounded from one direction to be
-sensational, from the other to be dismayed. The stadium spokesman provided
-further facts about the figures: „The goals: three times Stefan Kießling, o
-
-Image Metadata:
-- 2024_ SuperCopadeEspaña_AtleticoMadrid.jpg: {'jfif': 257, 'jfif_version': (1, 1), 'dpi': (300, 300), 'jfif_unit': 1, 'jfif_density': (300, 300), 'exif': b'Exif\x00\x00II*\x00\x08\x00\x00\x00\x04\x00\x0e\x01\x02\x00\x05\x01\x00\x00>\x00\x00\x00\x98\x82\x02\x00\x11\x00\x00\x00C\x01\x00\x00\x1a\x01\x05\x00\x01\x00\x00\x00T\x01\x00\x00\x1b\x01\x05\x00\x01\x00\x00\x00\\\x01\x00\x00\x00\x00\x00\x00RIYADH, SAUDI ARABIA - JANUARY 10: Toni Kroos of Real Madrid looks on during the Super Copa de Espana semi-final match between Real Madrid CF and Atletico Madrid at Al-Awwal Park on January 10, 2024 in Riyadh, Saudi Arabia. (Photo by Yasser Bakhsh/Getty Images)2024 Getty Images,\x01\x00\x00\x01\x00\x00\x00,\x01\x00\x00\x01\x00\x00\x00', 'xmp': b'<?xpacket begin="\xef\xbb\xbf" id="W5M0MpCehiHzreSzNTczkc9d"?>\n<x:xmpmeta xmlns:x="adobe:ns:meta/">\n\t<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">\n\t\t<rdf:Description rdf:about="" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:Iptc4xmpCore="http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/"   xmlns:GettyImagesGIFT="http://xmp.gettyimages.com/gift/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:plus="http://ns.useplus.org/ldf/xmp/1.0/"  xmlns:iptcExt="http://iptc.org/std/Iptc4xmpExt/2008-02-29/" xmlns:xmpRights="http://ns.adobe.com/xap/1.0/rights/" dc:Rights="2024 Getty Images" photoshop:Credit="Getty Images" GettyImagesGIFT:AssetID="1923072643" xmpRights:WebStatement="https://www.gettyimages.com/eula?utm_medium=organic&amp;utm_source=google&amp;utm_campaign=iptcurl" plus:DataMining="http://ns.useplus.org/ldf/vocab/DMI-PROHIBITED-EXCEPTSEARCHENGINEINDEXING" >\n<dc:creator><rdf:Seq><rdf:li>Yasser Bakhsh</rdf:li></rdf:Seq></dc:creator><dc:description><rdf:Alt><rdf:li xml:lang="x-default">RIYADH, SAUDI ARABIA - JANUARY 10: Toni Kroos of Real Madrid looks on during the Super Copa de Espana semi-final match between Real Madrid CF and Atletico Madrid at Al-Awwal Park on January 10, 2024 in Riyadh, Saudi Arabia. (Photo by Yasser Bakhsh/Getty Images)</rdf:li></rdf:Alt></dc:description>\n<plus:Licensor><rdf:Seq><rdf:li rdf:parseType=\'Resource\'><plus:LicensorURL>https://www.gettyimages.com/detail/1923072643?utm_medium=organic&amp;utm_source=google&amp;utm_campaign=iptcurl</plus:LicensorURL></rdf:li></rdf:Seq></plus:Licensor>\n\t\t</rdf:Description>\n\t</rdf:RDF>\n</x:xmpmeta>\n<?xpacket end="w"?>\n', 'photoshop': {1028: b'\x1c\x02P\x00\rYasser Bakhsh\x1c\x02x\x01\x05RIYADH, SAUDI ARABIA - JANUARY 10: Toni Kroos of Real Madrid looks on during the Super Copa de Espana semi-final match between Real Madrid CF and Atletico Madrid at Al-Awwal Park on January 10, 2024 in Riyadh, Saudi Arabia. (Photo by Yasser Bakhsh/Getty Images)\x1c\x02t\x00\x112024 Getty Images\x1c\x02n\x00\x0cGetty Images'}}
-
-- 2022_ChampionsLeage_Liverpool.jpg: {'jfif': 257, 'jfif_version': (1, 1), 'dpi': (300, 300), 'jfif_unit': 1, 'jfif_density': (300, 300), 'exif': b"Exif\x00\x00II*\x00\x08\x00\x00\x00\x04\x00\x0e\x01\x02\x00\xb1\x01\x00\x00>\x00\x00\x00\x98\x82\x02\x00\x10\x00\x00\x00\xef\x01\x00\x00\x1a\x01\x05\x00\x01\x00\x00\x00\xff\x01\x00\x00\x1b\x01\x05\x00\x01\x00\x00\x00\x07\x02\x00\x00\x00\x00\x00\x00(From L) Real Madrid's German midfielder Toni Kroos, Real Madrid's Brazilian midfielder Casemiro and Real Madrid's Croatian midfielder Luka Modric pose with the trophy after winning the UEFA Champions League final football match between Liverpool and Real Madrid at the Stade de France in Saint-Denis, north of Paris, on May 28, 2022. (Photo by Anne-Christine POUJOULAT / AFP) (Photo by ANNE-CHRISTINE POUJOULAT/AFP via Getty Images)AFP or licensors,\x01\x00\x00\x01\x00\x00\x00,\x01\x00\x00\x01\x00\x00\x00", 'xmp': b'<?xpacket begin="\xef\xbb\xbf" id="W5M0MpCehiHzreSzNTczkc9d"?>\n<x:xmpmeta xmlns:x="adobe:ns:meta/">\n\t<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">\n\t\t<rdf:Description rdf:about="" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:Iptc4xmpCore="http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/"   xmlns:GettyImagesGIFT="http://xmp.gettyimages.com/gift/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:plus="http://ns.useplus.org/ldf/xmp/1.0/"  xmlns:iptcExt="http://iptc.org/std/Iptc4xmpExt/2008-02-29/" xmlns:xmpRights="http://ns.adobe.com/xap/1.0/rights/" dc:Rights="AFP or licensors" photoshop:Credit="AFP via Getty Images" GettyImagesGIFT:AssetID="1240966318" xmpRights:WebStatement="https://www.gettyimages.com/eula?utm_medium=organic&amp;utm_source=google&amp;utm_campaign=iptcurl" plus:DataMining="http://ns.useplus.org/ldf/vocab/DMI-PROHIBITED-EXCEPTSEARCHENGINEINDEXING" >\n<dc:creator><rdf:Seq><rdf:li>ANNE-CHRISTINE POUJOULAT</rdf:li></rdf:Seq></dc:creator><dc:description><rdf:Alt><rdf:li xml:lang="x-default">(From L) Real Madrid&apos;s German midfielder Toni Kroos, Real Madrid&apos;s Brazilian midfielder Casemiro and Real Madrid&apos;s Croatian midfielder Luka Modric pose with the trophy after winning the UEFA Champions League final football match between Liverpool and Real Madrid at the Stade de France in Saint-Denis, north of Paris, on May 28, 2022. (Photo by Anne-Christine POUJOULAT / AFP) (Photo by ANNE-CHRISTINE POUJOULAT/AFP via Getty Images)</rdf:li></rdf:Alt></dc:description>\n<plus:Licensor><rdf:Seq><rdf:li rdf:parseType=\'Resource\'><plus:LicensorURL>https://www.gettyimages.com/detail/1240966318?utm_medium=organic&amp;utm_source=google&amp;utm_campaign=iptcurl</plus:LicensorURL></rdf:li></rdf:Seq></plus:Licensor>\n\t\t</rdf:Description>\n\t</rdf:RDF>\n</x:xmpmeta>\n<?xpacket end="w"?>\n', 'photoshop': {1028: b"\x1c\x02P\x00\x18ANNE-CHRISTINE POUJOULAT\x1c\x02x\x01\xb1(From L) Real Madrid's German midfielder Toni Kroos, Real Madrid's Brazilian midfielder Casemiro and Real Madrid's Croatian midfielder Luka Modric pose with the trophy after winning the UEFA Champions League final football match between Liverpool and Real Madrid at the Stade de France in Saint-Denis, north of Paris, on May 28, 2022. (Photo by Anne-Christine POUJOULAT / AFP) (Photo by ANNE-CHRISTINE POUJOULAT/AFP via Getty Images)\x1c\x02t\x00\x10AFP or licensors\x1c\x02n\x00\x14AFP via Getty Images"}}
-
-- 2024_ChampionsLeague_Dortmund.jpg: {'jfif': 257, 'jfif_version': (1, 1), 'dpi': (300, 300), 'jfif_unit': 1, 'jfif_density': (300, 300), 'exif': b'Exif\x00\x00II*\x00\x08\x00\x00\x00\x04\x00\x0e\x01\x02\x00\xfd\x00\x00\x00>\x00\x00\x00\x98\x82\x02\x00\x11\x00\x00\x00;\x01\x00\x00\x1a\x01\x05\x00\x01\x00\x00\x00L\x01\x00\x00\x1b\x01\x05\x00\x01\x00\x00\x00T\x01\x00\x00\x00\x00\x00\x00LONDON, ENGLAND - JUNE 01: Toni Kroos of Real Madrid looks on during the UEFA Champions League 2023/24 Final match between Borussia Dortmund and Real Madrid CF at Wembley Stadium on June 01, 2024 in London, England. (Photo by Alex Pantling/Getty Images)2024 Getty Images,\x01\x00\x00\x01\x00\x00\x00,\x01\x00\x00\x01\x00\x00\x00', 'xmp': b'<?xpacket begin="\xef\xbb\xbf" id="W5M0MpCehiHzreSzNTczkc9d"?>\n<x:xmpmeta xmlns:x="adobe:ns:meta/">\n\t<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">\n\t\t<rdf:Description rdf:about="" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:Iptc4xmpCore="http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/"   xmlns:GettyImagesGIFT="http://xmp.gettyimages.com/gift/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:plus="http://ns.useplus.org/ldf/xmp/1.0/"  xmlns:iptcExt="http://iptc.org/std/Iptc4xmpExt/2008-02-29/" xmlns:xmpRights="http://ns.adobe.com/xap/1.0/rights/" dc:Rights="2024 Getty Images" photoshop:Credit="Getty Images" GettyImagesGIFT:AssetID="2155633856" xmpRights:WebStatement="https://www.gettyimages.com/eula?utm_medium=organic&amp;utm_source=google&amp;utm_campaign=iptcurl" plus:DataMining="http://ns.useplus.org/ldf/vocab/DMI-PROHIBITED-EXCEPTSEARCHENGINEINDEXING" >\n<dc:creator><rdf:Seq><rdf:li>Alex Pantling</rdf:li></rdf:Seq></dc:creator><dc:description><rdf:Alt><rdf:li xml:lang="x-default">LONDON, ENGLAND - JUNE 01: Toni Kroos of Real Madrid looks on during the UEFA Champions League 2023/24 Final match between Borussia Dortmund and Real Madrid CF at Wembley Stadium on June 01, 2024 in London, England. (Photo by Alex Pantling/Getty Images)</rdf:li></rdf:Alt></dc:description>\n<plus:Licensor><rdf:Seq><rdf:li rdf:parseType=\'Resource\'><plus:LicensorURL>https://www.gettyimages.com/detail/2155633856?utm_medium=organic&amp;utm_source=google&amp;utm_campaign=iptcurl</plus:LicensorURL></rdf:li></rdf:Seq></plus:Licensor>\n\t\t</rdf:Description>\n\t</rdf:RDF>\n</x:xmpmeta>\n<?xpacket end="w"?>\n', 'photoshop': {1028: b'\x1c\x02P\x00\rAlex Pantling\x1c\x02x\x00\xfdLONDON, ENGLAND - JUNE 01: Toni Kroos of Real Madrid looks on during the UEFA Champions League 2023/24 Final match between Borussia Dortmund and Real Madrid CF at Wembley Stadium on June 01, 2024 in London, England. (Photo by Alex Pantling/Getty Images)\x1c\x02t\x00\x112024 Getty Images\x1c\x02n\x00\x0cGetty Images'}}
-
-- 2024_LaLiga_ReatBetis.jpg: {'jfif': 257, 'jfif_version': (1, 1), 'dpi': (300, 300), 'jfif_unit': 1, 'jfif_density': (300, 300), 'exif': b"Exif\x00\x00II*\x00\x08\x00\x00\x00\x04\x00\x0e\x01\x02\x00J\x02\x00\x00>\x00\x00\x00\x98\x82\x02\x00\x10\x00\x00\x00\x88\x02\x00\x00\x1a\x01\x05\x00\x01\x00\x00\x00\x98\x02\x00\x00\x1b\x01\x05\x00\x01\x00\x00\x00\xa0\x02\x00\x00\x00\x00\x00\x00TOPSHOT - Real Madrid's German midfielder #08 Toni Kroos gestures as he leaves the pitch during the Spanish league football match between Real Madrid CF and Real Betis at the Santiago Bernabeu stadium in Madrid on May 25, 2024. Real Madrid's German international midfielder Toni Kroos announced he will retire from all football after Euro 2024. Before the European Championship, Kroos has a chance to win the Champions League with Real for a fifth time when they face Borussia Dortmund at Wembley on June 1. (Photo by JAVIER SORIANO / AFP) (Photo by JAVIER SORIANO/AFP via Getty Images)AFP or Licensors,\x01\x00\x00\x01\x00\x00\x00,\x01\x00\x00\x01\x00\x00\x00", 'xmp': b'<?xpacket begin="\xef\xbb\xbf" id="W5M0MpCehiHzreSzNTczkc9d"?>\n<x:xmpmeta xmlns:x="adobe:ns:meta/">\n\t<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">\n\t\t<rdf:Description rdf:about="" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:Iptc4xmpCore="http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/"   xmlns:GettyImagesGIFT="http://xmp.gettyimages.com/gift/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:plus="http://ns.useplus.org/ldf/xmp/1.0/"  xmlns:iptcExt="http://iptc.org/std/Iptc4xmpExt/2008-02-29/" xmlns:xmpRights="http://ns.adobe.com/xap/1.0/rights/" dc:Rights="AFP or Licensors" photoshop:Credit="AFP via Getty Images" GettyImagesGIFT:AssetID="2154099356" xmpRights:WebStatement="https://www.gettyimages.com/eula?utm_medium=organic&amp;utm_source=google&amp;utm_campaign=iptcurl" plus:DataMining="http://ns.useplus.org/ldf/vocab/DMI-PROHIBITED-EXCEPTSEARCHENGINEINDEXING" >\n<dc:creator><rdf:Seq><rdf:li>JAVIER SORIANO</rdf:li></rdf:Seq></dc:creator><dc:description><rdf:Alt><rdf:li xml:lang="x-default">TOPSHOT - Real Madrid&apos;s German midfielder #08 Toni Kroos gestures as he leaves the pitch during the Spanish league football match between Real Madrid CF and Real Betis at the Santiago Bernabeu stadium in Madrid on May 25, 2024. Real Madrid&apos;s German international midfielder Toni Kroos announced he will retire from all football after Euro 2024. Before the European Championship, Kroos has a chance to win the Champions League with Real for a fifth time when they face Borussia Dortmund at Wembley on June 1. (Photo by JAVIER SORIANO / AFP) (Photo by JAVIER SORIANO/AFP via Getty Images)</rdf:li></rdf:Alt></dc:description>\n<plus:Licensor><rdf:Seq><rdf:li rdf:parseType=\'Resource\'><plus:LicensorURL>https://www.gettyimages.com/detail/2154099356?utm_medium=organic&amp;utm_source=google&amp;utm_campaign=iptcurl</plus:LicensorURL></rdf:li></rdf:Seq></plus:Licensor>\n\t\t</rdf:Description>\n\t</rdf:RDF>\n</x:xmpmeta>\n<?xpacket end="w"?>\n', 'photoshop': {1028: b"\x1c\x02P\x00\x0eJAVIER SORIANO\x1c\x02x\x02JTOPSHOT - Real Madrid's German midfielder #08 Toni Kroos gestures as he leaves the pitch during the Spanish league football match between Real Madrid CF and Real Betis at the Santiago Bernabeu stadium in Madrid on May 25, 2024. Real Madrid's German international midfielder Toni Kroos announced he will retire from all football after Euro 2024. Before the European Championship, Kroos has a chance to win the Champions League with Real for a fifth time when they face Borussia Dortmund at Wembley on June 1. (Photo by JAVIER SORIANO / AFP) (Photo by JAVIER SORIANO/AFP via Getty Images)\x1c\x02t\x00\x10AFP or Licensors\x1c\x02n\x00\x14AFP via Getty Images"}}
-
-- 2023_LaLiga_Granada.jpg: {'jfif': 257, 'jfif_version': (1, 1), 'dpi': (300, 300), 'jfif_unit': 1, 'jfif_density': (300, 300), 'exif': b'Exif\x00\x00II*\x00\x08\x00\x00\x00\x04\x00\x0e\x01\x02\x00-\x01\x00\x00>\x00\x00\x00\x98\x82\x02\x00\x1a\x00\x00\x00k\x01\x00\x00\x1a\x01\x05\x00\x01\x00\x00\x00\x85\x01\x00\x00\x1b\x01\x05\x00\x01\x00\x00\x00\x8d\x01\x00\x00\x00\x00\x00\x00MADRID, SPAIN - DECEMBER 02: Brahim Diaz (R) celebrates scoring their opening goal with his teammate Toni Kroos (L) during the LaLiga EA Sports match between Real Madrid CF and Granada CF at Estadio Santiago Bernabeu on December 02, 2023 in Madrid, Spain. (Photo by Gonzalo Arroyo Moreno/Getty Images)2023 Gonzalo Arroyo Moreno,\x01\x00\x00\x01\x00\x00\x00,\x01\x00\x00\x01\x00\x00\x00', 'xmp': b'<?xpacket begin="\xef\xbb\xbf" id="W5M0MpCehiHzreSzNTczkc9d"?>\n<x:xmpmeta xmlns:x="adobe:ns:meta/">\n\t<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">\n\t\t<rdf:Description rdf:about="" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:Iptc4xmpCore="http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/"   xmlns:GettyImagesGIFT="http://xmp.gettyimages.com/gift/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:plus="http://ns.useplus.org/ldf/xmp/1.0/"  xmlns:iptcExt="http://iptc.org/std/Iptc4xmpExt/2008-02-29/" xmlns:xmpRights="http://ns.adobe.com/xap/1.0/rights/" dc:Rights="2023 Gonzalo Arroyo Moreno" photoshop:Credit="Getty Images" GettyImagesGIFT:AssetID="1827139549" xmpRights:WebStatement="https://www.gettyimages.com/eula?utm_medium=organic&amp;utm_source=google&amp;utm_campaign=iptcurl" plus:DataMining="http://ns.useplus.org/ldf/vocab/DMI-PROHIBITED-EXCEPTSEARCHENGINEINDEXING" >\n<dc:creator><rdf:Seq><rdf:li>Gonzalo Arroyo Moreno</rdf:li></rdf:Seq></dc:creator><dc:description><rdf:Alt><rdf:li xml:lang="x-default">MADRID, SPAIN - DECEMBER 02: Brahim Diaz (R) celebrates scoring their opening goal with his teammate Toni Kroos (L) during the LaLiga EA Sports match between Real Madrid CF and Granada CF at Estadio Santiago Bernabeu on December 02, 2023 in Madrid, Spain. (Photo by Gonzalo Arroyo Moreno/Getty Images)</rdf:li></rdf:Alt></dc:description>\n<plus:Licensor><rdf:Seq><rdf:li rdf:parseType=\'Resource\'><plus:LicensorURL>https://www.gettyimages.com/detail/1827139549?utm_medium=organic&amp;utm_source=google&amp;utm_campaign=iptcurl</plus:LicensorURL></rdf:li></rdf:Seq></plus:Licensor>\n\t\t</rdf:Description>\n\t</rdf:RDF>\n</x:xmpmeta>\n<?xpacket end="w"?>\n', 'photoshop': {1028: b'\x1c\x02P\x00\x15Gonzalo Arroyo Moreno\x1c\x02x\x01-MADRID, SPAIN - DECEMBER 02: Brahim Diaz (R) celebrates scoring their opening goal with his teammate Toni Kroos (L) during the LaLiga EA Sports match between Real Madrid CF and Granada CF at Estadio Santiago Bernabeu on December 02, 2023 in Madrid, Spain. (Photo by Gonzalo Arroyo Moreno/Getty Images)\x1c\x02t\x00\x1a2023 Gonzalo Arroyo Moreno\x1c\x02n\x00\x0cGetty Images'}}
-
-- 2022_ChampionsLeague_ShakhtarDonetsk.jpg: {'jfif': 257, 'jfif_version': (1, 1), 'dpi': (300, 300), 'jfif_unit': 1, 'jfif_density': (300, 300), 'exif': b'Exif\x00\x00II*\x00\x08\x00\x00\x00\x04\x00\x0e\x01\x02\x00\x01\x01\x00\x00>\x00\x00\x00\x98\x82\x02\x00\x11\x00\x00\x00?\x01\x00\x00\x1a\x01\x05\x00\x01\x00\x00\x00P\x01\x00\x00\x1b\x01\x05\x00\x01\x00\x00\x00X\x01\x00\x00\x00\x00\x00\x00MADRID, SPAIN - OCTOBER 05: Toni Kroos of Real Madrid applauds fans after the UEFA Champions League group F match between Real Madrid and Shakhtar Donetsk at Estadio Santiago Bernabeu on October 05, 2022 in Madrid, Spain. (Photo by Denis Doyle/Getty Images)2022 Getty Images,\x01\x00\x00\x01\x00\x00\x00,\x01\x00\x00\x01\x00\x00\x00', 'xmp': b'<?xpacket begin="\xef\xbb\xbf" id="W5M0MpCehiHzreSzNTczkc9d"?>\n<x:xmpmeta xmlns:x="adobe:ns:meta/">\n\t<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">\n\t\t<rdf:Description rdf:about="" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:Iptc4xmpCore="http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/"   xmlns:GettyImagesGIFT="http://xmp.gettyimages.com/gift/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:plus="http://ns.useplus.org/ldf/xmp/1.0/"  xmlns:iptcExt="http://iptc.org/std/Iptc4xmpExt/2008-02-29/" xmlns:xmpRights="http://ns.adobe.com/xap/1.0/rights/" dc:Rights="2022 Getty Images" photoshop:Credit="Getty Images" GettyImagesGIFT:AssetID="1430807192" xmpRights:WebStatement="https://www.gettyimages.com/eula?utm_medium=organic&amp;utm_source=google&amp;utm_campaign=iptcurl" plus:DataMining="http://ns.useplus.org/ldf/vocab/DMI-PROHIBITED-EXCEPTSEARCHENGINEINDEXING" >\n<dc:creator><rdf:Seq><rdf:li>Denis Doyle</rdf:li></rdf:Seq></dc:creator><dc:description><rdf:Alt><rdf:li xml:lang="x-default">MADRID, SPAIN - OCTOBER 05: Toni Kroos of Real Madrid applauds fans after the UEFA Champions League group F match between Real Madrid and Shakhtar Donetsk at Estadio Santiago Bernabeu on October 05, 2022 in Madrid, Spain. (Photo by Denis Doyle/Getty Images)</rdf:li></rdf:Alt></dc:description>\n<plus:Licensor><rdf:Seq><rdf:li rdf:parseType=\'Resource\'><plus:LicensorURL>https://www.gettyimages.com/detail/1430807192?utm_medium=organic&amp;utm_source=google&amp;utm_campaign=iptcurl</plus:LicensorURL></rdf:li></rdf:Seq></plus:Licensor>\n\t\t</rdf:Description>\n\t</rdf:RDF>\n</x:xmpmeta>\n<?xpacket end="w"?>\n', 'photoshop': {1028: b'\x1c\x02P\x00\x0bDenis Doyle\x1c\x02x\x01\x01MADRID, SPAIN - OCTOBER 05: Toni Kroos of Real Madrid applauds fans after the UEFA Champions League group F match between Real Madrid and Shakhtar Donetsk at Estadio Santiago Bernabeu on October 05, 2022 in Madrid, Spain. (Photo by Denis Doyle/Getty Images)\x1c\x02t\x00\x112022 Getty Images\x1c\x02n\x00\x0cGetty Images'}}
-
-- 2017_ChampionsLeague_SSCNapoli.jpg: {'jfif': 257, 'jfif_version': (1, 1), 'dpi': (300, 300), 'jfif_unit': 1, 'jfif_density': (300, 300), 'exif': b'Exif\x00\x00II*\x00\x08\x00\x00\x00\x04\x00\x0e\x01\x02\x007\x01\x00\x00>\x00\x00\x00\x98\x82\x02\x00\x11\x00\x00\x00u\x01\x00\x00\x1a\x01\x05\x00\x01\x00\x00\x00\x86\x01\x00\x00\x1b\x01\x05\x00\x01\x00\x00\x00\x8e\x01\x00\x00\x00\x00\x00\x00MADRID, SPAIN - FEBRUARY 15:  Toni Kroos of Real Madrid celebrates as he scores their second goal during the UEFA Champions League Round of 16 first leg match between Real Madrid CF and SSC Napoli at Estadio Santiago Bernabeu on February 15, 2017 in Madrid, Spain.  (Photo by Gonzalo Arroyo Moreno/Getty Images)2017 Getty Images,\x01\x00\x00\x01\x00\x00\x00,\x01\x00\x00\x01\x00\x00\x00', 'xmp': b'<?xpacket begin="\xef\xbb\xbf" id="W5M0MpCehiHzreSzNTczkc9d"?>\n<x:xmpmeta xmlns:x="adobe:ns:meta/">\n\t<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">\n\t\t<rdf:Description rdf:about="" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:Iptc4xmpCore="http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/"   xmlns:GettyImagesGIFT="http://xmp.gettyimages.com/gift/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:plus="http://ns.useplus.org/ldf/xmp/1.0/"  xmlns:iptcExt="http://iptc.org/std/Iptc4xmpExt/2008-02-29/" xmlns:xmpRights="http://ns.adobe.com/xap/1.0/rights/" dc:Rights="2017 Getty Images" photoshop:Credit="Getty Images" GettyImagesGIFT:AssetID="635506260" xmpRights:WebStatement="https://www.gettyimages.com/eula?utm_medium=organic&amp;utm_source=google&amp;utm_campaign=iptcurl" plus:DataMining="http://ns.useplus.org/ldf/vocab/DMI-PROHIBITED-EXCEPTSEARCHENGINEINDEXING" >\n<dc:creator><rdf:Seq><rdf:li>Gonzalo Arroyo Moreno</rdf:li></rdf:Seq></dc:creator><dc:description><rdf:Alt><rdf:li xml:lang="x-default">MADRID, SPAIN - FEBRUARY 15:  Toni Kroos of Real Madrid celebrates as he scores their second goal during the UEFA Champions League Round of 16 first leg match between Real Madrid CF and SSC Napoli at Estadio Santiago Bernabeu on February 15, 2017 in Madrid, Spain.  (Photo by Gonzalo Arroyo Moreno/Getty Images)</rdf:li></rdf:Alt></dc:description>\n<plus:Licensor><rdf:Seq><rdf:li rdf:parseType=\'Resource\'><plus:LicensorURL>https://www.gettyimages.com/detail/635506260?utm_medium=organic&amp;utm_source=google&amp;utm_campaign=iptcurl</plus:LicensorURL></rdf:li></rdf:Seq></plus:Licensor>\n\t\t</rdf:Description>\n\t</rdf:RDF>\n</x:xmpmeta>\n<?xpacket end="w"?>\n', 'photoshop': {1028: b'\x1c\x02P\x00\x15Gonzalo Arroyo Moreno\x1c\x02x\x017MADRID, SPAIN - FEBRUARY 15:  Toni Kroos of Real Madrid celebrates as he scores their second goal during the UEFA Champions League Round of 16 first leg match between Real Madrid CF and SSC Napoli at Estadio Santiago Bernabeu on February 15, 2017 in Madrid, Spain.  (Photo by Gonzalo Arroyo Moreno/Getty Images)\x1c\x02t\x00\x112017 Getty Images\x1c\x02n\x00\x0cGetty Images'}}
-
-- 2021_LaLiga_Barcelona.jpg: {'jfif': 257, 'jfif_version': (1, 1), 'dpi': (300, 300), 'jfif_unit': 1, 'jfif_density': (300, 300), 'exif': b'Exif\x00\x00II*\x00\x08\x00\x00\x00\x03\x00\x0e\x01\x02\x00I\x01\x00\x002\x00\x00\x00\x1a\x01\x05\x00\x01\x00\x00\x00{\x01\x00\x00\x1b\x01\x05\x00\x01\x00\x00\x00\x83\x01\x00\x00\x00\x00\x00\x00Real Madrid\'s German midfielder Toni Kroos dives for the ball during the "El Clasico" Spanish League football match between Real Madrid CF and FC Barcelona at the Alfredo di Stefano stadium in Valdebebas, on the outskirts of Madrid on April 10, 2021. (Photo by JAVIER SORIANO / AFP) (Photo by JAVIER SORIANO/AFP via Getty Images),\x01\x00\x00\x01\x00\x00\x00,\x01\x00\x00\x01\x00\x00\x00', 'xmp': b'<?xpacket begin="\xef\xbb\xbf" id="W5M0MpCehiHzreSzNTczkc9d"?>\n<x:xmpmeta xmlns:x="adobe:ns:meta/">\n\t<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">\n\t\t<rdf:Description rdf:about="" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:Iptc4xmpCore="http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/"   xmlns:GettyImagesGIFT="http://xmp.gettyimages.com/gift/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:plus="http://ns.useplus.org/ldf/xmp/1.0/"  xmlns:iptcExt="http://iptc.org/std/Iptc4xmpExt/2008-02-29/" xmlns:xmpRights="http://ns.adobe.com/xap/1.0/rights/" photoshop:Credit="AFP via Getty Images" GettyImagesGIFT:AssetID="1232230842" xmpRights:WebStatement="https://www.gettyimages.com/eula?utm_medium=organic&amp;utm_source=google&amp;utm_campaign=iptcurl" plus:DataMining="http://ns.useplus.org/ldf/vocab/DMI-PROHIBITED-EXCEPTSEARCHENGINEINDEXING" >\n<dc:creator><rdf:Seq><rdf:li>JAVIER SORIANO</rdf:li></rdf:Seq></dc:creator><dc:description><rdf:Alt><rdf:li xml:lang="x-default">Real Madrid&apos;s German midfielder Toni Kroos dives for the ball during the &quot;El Clasico&quot; Spanish League football match between Real Madrid CF and FC Barcelona at the Alfredo di Stefano stadium in Valdebebas, on the outskirts of Madrid on April 10, 2021. (Photo by JAVIER SORIANO / AFP) (Photo by JAVIER SORIANO/AFP via Getty Images)</rdf:li></rdf:Alt></dc:description>\n<plus:Licensor><rdf:Seq><rdf:li rdf:parseType=\'Resource\'><plus:LicensorURL>https://www.gettyimages.com/detail/1232230842?utm_medium=organic&amp;utm_source=google&amp;utm_campaign=iptcurl</plus:LicensorURL></rdf:li></rdf:Seq></plus:Licensor>\n\t\t</rdf:Description>\n\t</rdf:RDF>\n</x:xmpmeta>\n<?xpacket end="w"?>\n', 'photoshop': {1028: b'\x1c\x02P\x00\x0eJAVIER SORIANO\x1c\x02x\x01IReal Madrid\'s German midfielder Toni Kroos dives for the ball during the "El Clasico" Spanish League football match between Real Madrid CF and FC Barcelona at the Alfredo di Stefano stadium in Valdebebas, on the outskirts of Madrid on April 10, 2021. (Photo by JAVIER SORIANO / AFP) (Photo by JAVIER SORIANO/AFP via Getty Images)\x1c\x02n\x00\x14AFP via Getty Images'}}
-
-- 2024_Euro_Scotland.jpg: {'jfif': 257, 'jfif_version': (1, 1), 'dpi': (300, 300), 'jfif_unit': 1, 'jfif_density': (300, 300), 'exif': b"Exif\x00\x00II*\x00\x08\x00\x00\x00\x04\x00\x0e\x01\x02\x00\x10\x01\x00\x00>\x00\x00\x00\x98\x82\x02\x00\x10\x00\x00\x00N\x01\x00\x00\x1a\x01\x05\x00\x01\x00\x00\x00^\x01\x00\x00\x1b\x01\x05\x00\x01\x00\x00\x00f\x01\x00\x00\x00\x00\x00\x00TOPSHOT - Germany's midfielder #08 Toni Kroos gestures during the UEFA Euro 2024 Group A football match between Germany and Scotland at the Munich Football Arena in Munich on June 14, 2024. (Photo by Fabrice COFFRINI / AFP) (Photo by FABRICE COFFRINI/AFP via Getty Images)AFP or licensors,\x01\x00\x00\x01\x00\x00\x00,\x01\x00\x00\x01\x00\x00\x00", 'xmp': b'<?xpacket begin="\xef\xbb\xbf" id="W5M0MpCehiHzreSzNTczkc9d"?>\n<x:xmpmeta xmlns:x="adobe:ns:meta/">\n\t<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">\n\t\t<rdf:Description rdf:about="" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:Iptc4xmpCore="http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/"   xmlns:GettyImagesGIFT="http://xmp.gettyimages.com/gift/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:plus="http://ns.useplus.org/ldf/xmp/1.0/"  xmlns:iptcExt="http://iptc.org/std/Iptc4xmpExt/2008-02-29/" xmlns:xmpRights="http://ns.adobe.com/xap/1.0/rights/" dc:Rights="AFP or licensors" photoshop:Credit="AFP via Getty Images" GettyImagesGIFT:AssetID="2156914908" xmpRights:WebStatement="https://www.gettyimages.com/eula?utm_medium=organic&amp;utm_source=google&amp;utm_campaign=iptcurl" plus:DataMining="http://ns.useplus.org/ldf/vocab/DMI-PROHIBITED-EXCEPTSEARCHENGINEINDEXING" >\n<dc:creator><rdf:Seq><rdf:li>FABRICE COFFRINI</rdf:li></rdf:Seq></dc:creator><dc:description><rdf:Alt><rdf:li xml:lang="x-default">TOPSHOT - Germany&apos;s midfielder #08 Toni Kroos gestures during the UEFA Euro 2024 Group A football match between Germany and Scotland at the Munich Football Arena in Munich on June 14, 2024. (Photo by Fabrice COFFRINI / AFP) (Photo by FABRICE COFFRINI/AFP via Getty Images)</rdf:li></rdf:Alt></dc:description>\n<plus:Licensor><rdf:Seq><rdf:li rdf:parseType=\'Resource\'><plus:LicensorURL>https://www.gettyimages.com/detail/2156914908?utm_medium=organic&amp;utm_source=google&amp;utm_campaign=iptcurl</plus:LicensorURL></rdf:li></rdf:Seq></plus:Licensor>\n\t\t</rdf:Description>\n\t</rdf:RDF>\n</x:xmpmeta>\n<?xpacket end="w"?>\n', 'photoshop': {1028: b"\x1c\x02P\x00\x10FABRICE COFFRINI\x1c\x02x\x01\x10TOPSHOT - Germany's midfielder #08 Toni Kroos gestures during the UEFA Euro 2024 Group A football match between Germany and Scotland at the Munich Football Arena in Munich on June 14, 2024. (Photo by Fabrice COFFRINI / AFP) (Photo by FABRICE COFFRINI/AFP via Getty Images)\x1c\x02t\x00\x10AFP or licensors\x1c\x02n\x00\x14AFP via Getty Images"}}
-
-- 2012_Bundesliga_HerthaBSCBerlin.jpg: {'jfif': 257, 'jfif_version': (1, 1), 'dpi': (300, 300), 'jfif_unit': 1, 'jfif_density': (300, 300), 'exif': b"Exif\x00\x00II*\x00\x08\x00\x00\x00\x04\x00\x0e\x01\x02\x00\x17\x01\x00\x00>\x00\x00\x00\x98\x82\x02\x00\x11\x00\x00\x00U\x01\x00\x00\x1a\x01\x05\x00\x01\x00\x00\x00f\x01\x00\x00\x1b\x01\x05\x00\x01\x00\x00\x00n\x01\x00\x00\x00\x00\x00\x00BERLIN, GERMANY - MARCH 17:  Toni Kroos of Muenchen celebrates after scoring his team's fifth goal during the Bundesliga match between Hertha BSC Berlin and FC Bayern Muenchen at Olympic Stadium on March 17, 2012 in Berlin, Germany.  (Photo by Joern Pollex/Bongarts/Getty Images)2012 Getty Images,\x01\x00\x00\x01\x00\x00\x00,\x01\x00\x00\x01\x00\x00\x00", 'xmp': b'<?xpacket begin="\xef\xbb\xbf" id="W5M0MpCehiHzreSzNTczkc9d"?>\n<x:xmpmeta xmlns:x="adobe:ns:meta/">\n\t<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">\n\t\t<rdf:Description rdf:about="" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:Iptc4xmpCore="http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/"   xmlns:GettyImagesGIFT="http://xmp.gettyimages.com/gift/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:plus="http://ns.useplus.org/ldf/xmp/1.0/"  xmlns:iptcExt="http://iptc.org/std/Iptc4xmpExt/2008-02-29/" xmlns:xmpRights="http://ns.adobe.com/xap/1.0/rights/" dc:Rights="2012 Getty Images" photoshop:Credit="Bongarts/Getty Images" GettyImagesGIFT:AssetID="141494339" xmpRights:WebStatement="https://www.gettyimages.com/eula?utm_medium=organic&amp;utm_source=google&amp;utm_campaign=iptcurl" plus:DataMining="http://ns.useplus.org/ldf/vocab/DMI-PROHIBITED-EXCEPTSEARCHENGINEINDEXING" >\n<dc:creator><rdf:Seq><rdf:li>Joern Pollex</rdf:li></rdf:Seq></dc:creator><dc:description><rdf:Alt><rdf:li xml:lang="x-default">BERLIN, GERMANY - MARCH 17:  Toni Kroos of Muenchen celebrates after scoring his team&apos;s fifth goal during the Bundesliga match between Hertha BSC Berlin and FC Bayern Muenchen at Olympic Stadium on March 17, 2012 in Berlin, Germany.  (Photo by Joern Pollex/Bongarts/Getty Images)</rdf:li></rdf:Alt></dc:description>\n<plus:Licensor><rdf:Seq><rdf:li rdf:parseType=\'Resource\'><plus:LicensorURL>https://www.gettyimages.com/detail/141494339?utm_medium=organic&amp;utm_source=google&amp;utm_campaign=iptcurl</plus:LicensorURL></rdf:li></rdf:Seq></plus:Licensor>\n\t\t</rdf:Description>\n\t</rdf:RDF>\n</x:xmpmeta>\n<?xpacket end="w"?>\n', 'photoshop': {1028: b"\x1c\x02P\x00\x0cJoern Pollex\x1c\x02x\x01\x17BERLIN, GERMANY - MARCH 17:  Toni Kroos of Muenchen celebrates after scoring his team's fifth goal during the Bundesliga match between Hertha BSC Berlin and FC Bayern Muenchen at Olympic Stadium on March 17, 2012 in Berlin, Germany.  (Photo by Joern Pollex/Bongarts/Getty Images)\x1c\x02t\x00\x112012 Getty Images\x1c\x02n\x00\x15Bongarts/Getty Images"}}
-
-- 2013_Bundesliga_Leverkusen.jpg: {'jfif': 257, 'jfif_version': (1, 1), 'dpi': (300, 300), 'jfif_unit': 1, 'jfif_density': (300, 300), 'exif': b"Exif\x00\x00II*\x00\x08\x00\x00\x00\x04\x00\x0e\x01\x02\x00\n\x01\x00\x00>\x00\x00\x00\x98\x82\x02\x00\x11\x00\x00\x00H\x01\x00\x00\x1a\x01\x05\x00\x01\x00\x00\x00Y\x01\x00\x00\x1b\x01\x05\x00\x01\x00\x00\x00a\x01\x00\x00\x00\x00\x00\x00LEVERKUSEN, GERMANY - OCTOBER 05:  Toni Kroos of Muenchen celebrates his team's first goal during the Bundesliga match between Bayer Leverkusen and FC Bayern Muenchen at BayArena on October 5, 2013 in Leverkusen, Germany.  (Photo by Alex Grimm/Bongarts/Getty Images)2013 Getty Images,\x01\x00\x00\x01\x00\x00\x00,\x01\x00\x00\x01\x00\x00\x00", 'xmp': b'<?xpacket begin="\xef\xbb\xbf" id="W5M0MpCehiHzreSzNTczkc9d"?>\n<x:xmpmeta xmlns:x="adobe:ns:meta/">\n\t<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">\n\t\t<rdf:Description rdf:about="" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:Iptc4xmpCore="http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/"   xmlns:GettyImagesGIFT="http://xmp.gettyimages.com/gift/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:plus="http://ns.useplus.org/ldf/xmp/1.0/"  xmlns:iptcExt="http://iptc.org/std/Iptc4xmpExt/2008-02-29/" xmlns:xmpRights="http://ns.adobe.com/xap/1.0/rights/" dc:Rights="2013 Getty Images" photoshop:Credit="Bongarts/Getty Images" GettyImagesGIFT:AssetID="183158991" xmpRights:WebStatement="https://www.gettyimages.com/eula?utm_medium=organic&amp;utm_source=google&amp;utm_campaign=iptcurl" plus:DataMining="http://ns.useplus.org/ldf/vocab/DMI-PROHIBITED-EXCEPTSEARCHENGINEINDEXING" >\n<dc:creator><rdf:Seq><rdf:li>Alex Grimm</rdf:li></rdf:Seq></dc:creator><dc:description><rdf:Alt><rdf:li xml:lang="x-default">LEVERKUSEN, GERMANY - OCTOBER 05:  Toni Kroos of Muenchen celebrates his team&apos;s first goal during the Bundesliga match between Bayer Leverkusen and FC Bayern Muenchen at BayArena on October 5, 2013 in Leverkusen, Germany.  (Photo by Alex Grimm/Bongarts/Getty Images)</rdf:li></rdf:Alt></dc:description>\n<plus:Licensor><rdf:Seq><rdf:li rdf:parseType=\'Resource\'><plus:LicensorURL>https://www.gettyimages.com/detail/183158991?utm_medium=organic&amp;utm_source=google&amp;utm_campaign=iptcurl</plus:LicensorURL></rdf:li></rdf:Seq></plus:Licensor>\n\t\t</rdf:Description>\n\t</rdf:RDF>\n</x:xmpmeta>\n<?xpacket end="w"?>\n', 'photoshop': {1028: b"\x1c\x02P\x00\nAlex Grimm\x1c\x02x\x01\nLEVERKUSEN, GERMANY - OCTOBER 05:  Toni Kroos of Muenchen celebrates his team's first goal during the Bundesliga match between Bayer Leverkusen and FC Bayern Muenchen at BayArena on October 5, 2013 in Leverkusen, Germany.  (Photo by Alex Grimm/Bongarts/Getty Images)\x1c\x02t\x00\x112013 Getty Images\x1c\x02n\x00\x15Bongarts/Getty Images"}}
-
-- 2018_ChampionsLeague_BayernMunich.jpg: {'jfif': 257, 'jfif_version': (1, 1), 'dpi': (300, 300), 'jfif_unit': 1, 'jfif_density': (300, 300), 'exif': b'Exif\x00\x00II*\x00\x08\x00\x00\x00\x04\x00\x0e\x01\x02\x00\x1b\x01\x00\x00>\x00\x00\x00\x98\x82\x02\x00\x11\x00\x00\x00Y\x01\x00\x00\x1a\x01\x05\x00\x01\x00\x00\x00j\x01\x00\x00\x1b\x01\x05\x00\x01\x00\x00\x00r\x01\x00\x00\x00\x00\x00\x00MADRID, SPAIN - MAY 01:  Toni Kroos f Real Madrid celebrates as they reach the final after the UEFA Champions League Semi Final Second Leg match between Real Madrid and Bayern Muenchen at the Bernabeu on May 1, 2018 in Madrid, Spain.  (Photo by Matthias Hangst/Bongarts/Getty Images)2018 Getty Images,\x01\x00\x00\x01\x00\x00\x00,\x01\x00\x00\x01\x00\x00\x00', 'xmp': b'<?xpacket begin="\xef\xbb\xbf" id="W5M0MpCehiHzreSzNTczkc9d"?>\n<x:xmpmeta xmlns:x="adobe:ns:meta/">\n\t<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">\n\t\t<rdf:Description rdf:about="" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:Iptc4xmpCore="http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/"   xmlns:GettyImagesGIFT="http://xmp.gettyimages.com/gift/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:plus="http://ns.useplus.org/ldf/xmp/1.0/"  xmlns:iptcExt="http://iptc.org/std/Iptc4xmpExt/2008-02-29/" xmlns:xmpRights="http://ns.adobe.com/xap/1.0/rights/" dc:Rights="2018 Getty Images" photoshop:Credit="Bongarts/Getty Images" GettyImagesGIFT:AssetID="953535672" xmpRights:WebStatement="https://www.gettyimages.com/eula?utm_medium=organic&amp;utm_source=google&amp;utm_campaign=iptcurl" plus:DataMining="http://ns.useplus.org/ldf/vocab/DMI-PROHIBITED-EXCEPTSEARCHENGINEINDEXING" >\n<dc:creator><rdf:Seq><rdf:li>Matthias Hangst</rdf:li></rdf:Seq></dc:creator><dc:description><rdf:Alt><rdf:li xml:lang="x-default">MADRID, SPAIN - MAY 01:  Toni Kroos f Real Madrid celebrates as they reach the final after the UEFA Champions League Semi Final Second Leg match between Real Madrid and Bayern Muenchen at the Bernabeu on May 1, 2018 in Madrid, Spain.  (Photo by Matthias Hangst/Bongarts/Getty Images)</rdf:li></rdf:Alt></dc:description>\n<plus:Licensor><rdf:Seq><rdf:li rdf:parseType=\'Resource\'><plus:LicensorURL>https://www.gettyimages.com/detail/953535672?utm_medium=organic&amp;utm_source=google&amp;utm_campaign=iptcurl</plus:LicensorURL></rdf:li></rdf:Seq></plus:Licensor>\n\t\t</rdf:Description>\n\t</rdf:RDF>\n</x:xmpmeta>\n<?xpacket end="w"?>\n', 'photoshop': {1028: b'\x1c\x02P\x00\x0fMatthias Hangst\x1c\x02x\x01\x1bMADRID, SPAIN - MAY 01:  Toni Kroos f Real Madrid celebrates as they reach the final after the UEFA Champions League Semi Final Second Leg match between Real Madrid and Bayern Muenchen at the Bernabeu on May 1, 2018 in Madrid, Spain.  (Photo by Matthias Hangst/Bongarts/Getty Images)\x1c\x02t\x00\x112018 Getty Images\x1c\x02n\x00\x15Bongarts/Getty Images'}}
-
-- 2018_WorldCup_Sweden.jpg: {'jfif': 257, 'jfif_version': (1, 1), 'dpi': (300, 300), 'jfif_unit': 1, 'jfif_density': (300, 300), 'exif': b'Exif\x00\x00II*\x00\x08\x00\x00\x00\x04\x00\x0e\x01\x02\x00\x15\x01\x00\x00>\x00\x00\x00\x98\x82\x02\x00\t\x00\x00\x00S\x01\x00\x00\x1a\x01\x05\x00\x01\x00\x00\x00\\\x01\x00\x00\x1b\x01\x05\x00\x01\x00\x00\x00d\x01\x00\x00\x00\x00\x00\x00SOCHI, RUSSIA - JUNE 23:  Toni Kroos of Germany celebrates scoring his sides winning goal during the 2018 FIFA World Cup Russia group F match between Germany and Sweden at Fisht Stadium on June 23, 2018 in Sochi, Russia.  (Photo by Stuart Franklin - FIFA/FIFA via Getty Images)2018 FIFA,\x01\x00\x00\x01\x00\x00\x00,\x01\x00\x00\x01\x00\x00\x00', 'xmp': b'<?xpacket begin="\xef\xbb\xbf" id="W5M0MpCehiHzreSzNTczkc9d"?>\n<x:xmpmeta xmlns:x="adobe:ns:meta/">\n\t<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">\n\t\t<rdf:Description rdf:about="" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:Iptc4xmpCore="http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/"   xmlns:GettyImagesGIFT="http://xmp.gettyimages.com/gift/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:plus="http://ns.useplus.org/ldf/xmp/1.0/"  xmlns:iptcExt="http://iptc.org/std/Iptc4xmpExt/2008-02-29/" xmlns:xmpRights="http://ns.adobe.com/xap/1.0/rights/" dc:Rights="2018 FIFA" photoshop:Credit="FIFA via Getty Images" GettyImagesGIFT:AssetID="982171336" xmpRights:WebStatement="https://www.gettyimages.com/eula?utm_medium=organic&amp;utm_source=google&amp;utm_campaign=iptcurl" plus:DataMining="http://ns.useplus.org/ldf/vocab/DMI-PROHIBITED-EXCEPTSEARCHENGINEINDEXING" >\n<dc:creator><rdf:Seq><rdf:li>Stuart Franklin - FIFA</rdf:li></rdf:Seq></dc:creator><dc:description><rdf:Alt><rdf:li xml:lang="x-default">SOCHI, RUSSIA - JUNE 23:  Toni Kroos of Germany celebrates scoring his sides winning goal during the 2018 FIFA World Cup Russia group F match between Germany and Sweden at Fisht Stadium on June 23, 2018 in Sochi, Russia.  (Photo by Stuart Franklin - FIFA/FIFA via Getty Images)</rdf:li></rdf:Alt></dc:description>\n<plus:Licensor><rdf:Seq><rdf:li rdf:parseType=\'Resource\'><plus:LicensorURL>https://www.gettyimages.com/detail/982171336?utm_medium=organic&amp;utm_source=google&amp;utm_campaign=iptcurl</plus:LicensorURL></rdf:li></rdf:Seq></plus:Licensor>\n\t\t</rdf:Description>\n\t</rdf:RDF>\n</x:xmpmeta>\n<?xpacket end="w"?>\n', 'photoshop': {1028: b'\x1c\x02P\x00\x16Stuart Franklin - FIFA\x1c\x02x\x01\x15SOCHI, RUSSIA - JUNE 23:  Toni Kroos of Germany celebrates scoring his sides winning goal during the 2018 FIFA World Cup Russia group F match between Germany and Sweden at Fisht Stadium on June 23, 2018 in Sochi, Russia.  (Photo by Stuart Franklin - FIFA/FIFA via Getty Images)\x1c\x02t\x00\t2018 FIFA\x1c\x02n\x00\x15FIFA via Getty Images'}}
-
-- 2014_WorldCup_Brazil.jpg: {'jfif': 257, 'jfif_version': (1, 1), 'dpi': (300, 300), 'jfif_unit': 1, 'jfif_density': (300, 300), 'exif': b"Exif\x00\x00II*\x00\x08\x00\x00\x00\x04\x00\x0e\x01\x02\x00\x10\x01\x00\x00>\x00\x00\x00\x98\x82\x02\x00\x11\x00\x00\x00N\x01\x00\x00\x1a\x01\x05\x00\x01\x00\x00\x00_\x01\x00\x00\x1b\x01\x05\x00\x01\x00\x00\x00g\x01\x00\x00\x00\x00\x00\x00BELO HORIZONTE, BRAZIL - JULY 08: Toni Kroos of Germany scores his team's fourth goal during the 2014 FIFA World Cup Brazil Semi Final match between Brazil and Germany at Estadio Mineirao on July 8, 2014 in Belo Horizonte, Brazil.  (Photo by Robert Cianflone/Getty Images)2014 Getty Images,\x01\x00\x00\x01\x00\x00\x00,\x01\x00\x00\x01\x00\x00\x00", 'xmp': b'<?xpacket begin="\xef\xbb\xbf" id="W5M0MpCehiHzreSzNTczkc9d"?>\n<x:xmpmeta xmlns:x="adobe:ns:meta/">\n\t<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">\n\t\t<rdf:Description rdf:about="" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:Iptc4xmpCore="http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/"   xmlns:GettyImagesGIFT="http://xmp.gettyimages.com/gift/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:plus="http://ns.useplus.org/ldf/xmp/1.0/"  xmlns:iptcExt="http://iptc.org/std/Iptc4xmpExt/2008-02-29/" xmlns:xmpRights="http://ns.adobe.com/xap/1.0/rights/" dc:Rights="2014 Getty Images" photoshop:Credit="Getty Images" GettyImagesGIFT:AssetID="451864036" xmpRights:WebStatement="https://www.gettyimages.com/eula?utm_medium=organic&amp;utm_source=google&amp;utm_campaign=iptcurl" plus:DataMining="http://ns.useplus.org/ldf/vocab/DMI-PROHIBITED-EXCEPTSEARCHENGINEINDEXING" >\n<dc:creator><rdf:Seq><rdf:li>Robert Cianflone</rdf:li></rdf:Seq></dc:creator><dc:description><rdf:Alt><rdf:li xml:lang="x-default">BELO HORIZONTE, BRAZIL - JULY 08: Toni Kroos of Germany scores his team&apos;s fourth goal during the 2014 FIFA World Cup Brazil Semi Final match between Brazil and Germany at Estadio Mineirao on July 8, 2014 in Belo Horizonte, Brazil.  (Photo by Robert Cianflone/Getty Images)</rdf:li></rdf:Alt></dc:description>\n<plus:Licensor><rdf:Seq><rdf:li rdf:parseType=\'Resource\'><plus:LicensorURL>https://www.gettyimages.com/detail/451864036?utm_medium=organic&amp;utm_source=google&amp;utm_campaign=iptcurl</plus:LicensorURL></rdf:li></rdf:Seq></plus:Licensor>\n\t\t</rdf:Description>\n\t</rdf:RDF>\n</x:xmpmeta>\n<?xpacket end="w"?>\n', 'photoshop': {1028: b"\x1c\x02P\x00\x10Robert Cianflone\x1c\x02x\x01\x10BELO HORIZONTE, BRAZIL - JULY 08: Toni Kroos of Germany scores his team's fourth goal during the 2014 FIFA World Cup Brazil Semi Final match between Brazil and Germany at Estadio Mineirao on July 8, 2014 in Belo Horizonte, Brazil.  (Photo by Robert Cianflone/Getty Images)\x1c\x02t\x00\x112014 Getty Images\x1c\x02n\x00\x0cGetty Images"}}
-
-- 2018_WorldCup_Sweden_1.jpg: {'jfif': 257, 'jfif_version': (1, 1), 'dpi': (300, 300), 'jfif_unit': 1, 'jfif_density': (300, 300), 'exif': b"Exif\x00\x00II*\x00\x08\x00\x00\x00\x04\x00\x0e\x01\x02\x00\t\x01\x00\x00>\x00\x00\x00\x98\x82\x02\x00\t\x00\x00\x00G\x01\x00\x00\x1a\x01\x05\x00\x01\x00\x00\x00P\x01\x00\x00\x1b\x01\x05\x00\x01\x00\x00\x00X\x01\x00\x00\x00\x00\x00\x00SOCHI, RUSSIA - JUNE 23:  Toni Kroos of Germany scores his team's second goal during the 2018 FIFA World Cup Russia group F match between Germany and Sweden at Fisht Stadium on June 23, 2018 in Sochi, Russia.  (Photo by Stuart Franklin - FIFA/FIFA via Getty Images)2018 FIFA,\x01\x00\x00\x01\x00\x00\x00,\x01\x00\x00\x01\x00\x00\x00", 'xmp': b'<?xpacket begin="\xef\xbb\xbf" id="W5M0MpCehiHzreSzNTczkc9d"?>\n<x:xmpmeta xmlns:x="adobe:ns:meta/">\n\t<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">\n\t\t<rdf:Description rdf:about="" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:Iptc4xmpCore="http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/"   xmlns:GettyImagesGIFT="http://xmp.gettyimages.com/gift/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:plus="http://ns.useplus.org/ldf/xmp/1.0/"  xmlns:iptcExt="http://iptc.org/std/Iptc4xmpExt/2008-02-29/" xmlns:xmpRights="http://ns.adobe.com/xap/1.0/rights/" dc:Rights="2018 FIFA" photoshop:Credit="FIFA via Getty Images" GettyImagesGIFT:AssetID="982175202" xmpRights:WebStatement="https://www.gettyimages.com/eula?utm_medium=organic&amp;utm_source=google&amp;utm_campaign=iptcurl" plus:DataMining="http://ns.useplus.org/ldf/vocab/DMI-PROHIBITED-EXCEPTSEARCHENGINEINDEXING" >\n<dc:creator><rdf:Seq><rdf:li>Stuart Franklin - FIFA</rdf:li></rdf:Seq></dc:creator><dc:description><rdf:Alt><rdf:li xml:lang="x-default">SOCHI, RUSSIA - JUNE 23:  Toni Kroos of Germany scores his team&apos;s second goal during the 2018 FIFA World Cup Russia group F match between Germany and Sweden at Fisht Stadium on June 23, 2018 in Sochi, Russia.  (Photo by Stuart Franklin - FIFA/FIFA via Getty Images)</rdf:li></rdf:Alt></dc:description>\n<plus:Licensor><rdf:Seq><rdf:li rdf:parseType=\'Resource\'><plus:LicensorURL>https://www.gettyimages.com/detail/982175202?utm_medium=organic&amp;utm_source=google&amp;utm_campaign=iptcurl</plus:LicensorURL></rdf:li></rdf:Seq></plus:Licensor>\n\t\t</rdf:Description>\n\t</rdf:RDF>\n</x:xmpmeta>\n<?xpacket end="w"?>\n', 'photoshop': {1028: b"\x1c\x02P\x00\x16Stuart Franklin - FIFA\x1c\x02x\x01\tSOCHI, RUSSIA - JUNE 23:  Toni Kroos of Germany scores his team's second goal during the 2018 FIFA World Cup Russia group F match between Germany and Sweden at Fisht Stadium on June 23, 2018 in Sochi, Russia.  (Photo by Stuart Franklin - FIFA/FIFA via Getty Images)\x1c\x02t\x00\t2018 FIFA\x1c\x02n\x00\x15FIFA via Getty Images"}}
-
-- 2014_WorldCup_Argentina.jpeg: {'jfif': 257, 'jfif_version': (1, 1), 'dpi': (300, 300), 'jfif_unit': 1, 'jfif_density': (300, 300), 'exif': b'Exif\x00\x00II*\x00\x08\x00\x00\x00\x04\x00\x0e\x01\x02\x00*\x01\x00\x00>\x00\x00\x00\x98\x82\x02\x00\x11\x00\x00\x00h\x01\x00\x00\x1a\x01\x05\x00\x01\x00\x00\x00y\x01\x00\x00\x1b\x01\x05\x00\x01\x00\x00\x00\x81\x01\x00\x00\x00\x00\x00\x00RIO DE JANEIRO, BRAZIL - JULY 13: Toni Kroos of Germany celebrates with his medal after defeating Argentina 1-0 in extra time during the 2014 FIFA World Cup Brazil Final match between Germany and Argentina at Maracana on July 13, 2014 in Rio de Janeiro, Brazil.  (Photo by Martin Rose/Getty Images)2014 Getty Images,\x01\x00\x00\x01\x00\x00\x00,\x01\x00\x00\x01\x00\x00\x00', 'xmp': b'<?xpacket begin="\xef\xbb\xbf" id="W5M0MpCehiHzreSzNTczkc9d"?>\n<x:xmpmeta xmlns:x="adobe:ns:meta/">\n\t<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">\n\t\t<rdf:Description rdf:about="" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:Iptc4xmpCore="http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/"   xmlns:GettyImagesGIFT="http://xmp.gettyimages.com/gift/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:plus="http://ns.useplus.org/ldf/xmp/1.0/"  xmlns:iptcExt="http://iptc.org/std/Iptc4xmpExt/2008-02-29/" xmlns:xmpRights="http://ns.adobe.com/xap/1.0/rights/" dc:Rights="2014 Getty Images" photoshop:Credit="Getty Images" GettyImagesGIFT:AssetID="452117362" xmpRights:WebStatement="https://www.gettyimages.com/eula?utm_medium=organic&amp;utm_source=google&amp;utm_campaign=iptcurl" plus:DataMining="http://ns.useplus.org/ldf/vocab/DMI-PROHIBITED-EXCEPTSEARCHENGINEINDEXING" >\n<dc:creator><rdf:Seq><rdf:li>Martin Rose</rdf:li></rdf:Seq></dc:creator><dc:description><rdf:Alt><rdf:li xml:lang="x-default">RIO DE JANEIRO, BRAZIL - JULY 13: Toni Kroos of Germany celebrates with his medal after defeating Argentina 1-0 in extra time during the 2014 FIFA World Cup Brazil Final match between Germany and Argentina at Maracana on July 13, 2014 in Rio de Janeiro, Brazil.  (Photo by Martin Rose/Getty Images)</rdf:li></rdf:Alt></dc:description>\n<plus:Licensor><rdf:Seq><rdf:li rdf:parseType=\'Resource\'><plus:LicensorURL>https://www.gettyimages.com/detail/452117362?utm_medium=organic&amp;utm_source=google&amp;utm_campaign=iptcurl</plus:LicensorURL></rdf:li></rdf:Seq></plus:Licensor>\n\t\t</rdf:Description>\n\t</rdf:RDF>\n</x:xmpmeta>\n<?xpacket end="w"?>\n', 'photoshop': {1028: b'\x1c\x02P\x00\x0bMartin Rose\x1c\x02x\x01*RIO DE JANEIRO, BRAZIL - JULY 13: Toni Kroos of Germany celebrates with his medal after defeating Argentina 1-0 in extra time during the 2014 FIFA World Cup Brazil Final match between Germany and Argentina at Maracana on July 13, 2014 in Rio de Janeiro, Brazil.  (Photo by Martin Rose/Getty Images)\x1c\x02t\x00\x112014 Getty Images\x1c\x02n\x00\x0cGetty Images'}}
-
-- 2020_LaLiga_Barcelona.jpg: {'jfif': 257, 'jfif_version': (1, 1), 'dpi': (300, 300), 'jfif_unit': 1, 'jfif_density': (300, 300), 'exif': b'Exif\x00\x00II*\x00\x08\x00\x00\x00\x04\x00\x0e\x01\x02\x00\xfc\x00\x00\x00>\x00\x00\x00\x98\x82\x02\x00\x11\x00\x00\x00:\x01\x00\x00\x1a\x01\x05\x00\x01\x00\x00\x00K\x01\x00\x00\x1b\x01\x05\x00\x01\x00\x00\x00S\x01\x00\x00\x00\x00\x00\x00MADRID, SPAIN - MARCH 01: Toni Kroos of Real Madrid CF acknowledges the audience after the Liga match between Real Madrid CF and FC Barcelona at Estadio Santiago Bernabeu on March 01, 2020 in Madrid, Spain. (Photo by Gonzalo Arroyo Moreno/Getty Images)2020 Getty Images,\x01\x00\x00\x01\x00\x00\x00,\x01\x00\x00\x01\x00\x00\x00', 'xmp': b'<?xpacket begin="\xef\xbb\xbf" id="W5M0MpCehiHzreSzNTczkc9d"?>\n<x:xmpmeta xmlns:x="adobe:ns:meta/">\n\t<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">\n\t\t<rdf:Description rdf:about="" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:Iptc4xmpCore="http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/"   xmlns:GettyImagesGIFT="http://xmp.gettyimages.com/gift/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:plus="http://ns.useplus.org/ldf/xmp/1.0/"  xmlns:iptcExt="http://iptc.org/std/Iptc4xmpExt/2008-02-29/" xmlns:xmpRights="http://ns.adobe.com/xap/1.0/rights/" dc:Rights="2020 Getty Images" photoshop:Credit="Getty Images" GettyImagesGIFT:AssetID="1209858177" xmpRights:WebStatement="https://www.gettyimages.com/eula?utm_medium=organic&amp;utm_source=google&amp;utm_campaign=iptcurl" plus:DataMining="http://ns.useplus.org/ldf/vocab/DMI-PROHIBITED-EXCEPTSEARCHENGINEINDEXING" >\n<dc:creator><rdf:Seq><rdf:li>Gonzalo Arroyo Moreno</rdf:li></rdf:Seq></dc:creator><dc:description><rdf:Alt><rdf:li xml:lang="x-default">MADRID, SPAIN - MARCH 01: Toni Kroos of Real Madrid CF acknowledges the audience after the Liga match between Real Madrid CF and FC Barcelona at Estadio Santiago Bernabeu on March 01, 2020 in Madrid, Spain. (Photo by Gonzalo Arroyo Moreno/Getty Images)</rdf:li></rdf:Alt></dc:description>\n<plus:Licensor><rdf:Seq><rdf:li rdf:parseType=\'Resource\'><plus:LicensorURL>https://www.gettyimages.com/detail/1209858177?utm_medium=organic&amp;utm_source=google&amp;utm_campaign=iptcurl</plus:LicensorURL></rdf:li></rdf:Seq></plus:Licensor>\n\t\t</rdf:Description>\n\t</rdf:RDF>\n</x:xmpmeta>\n<?xpacket end="w"?>\n', 'photoshop': {1028: b'\x1c\x02P\x00\x15Gonzalo Arroyo Moreno\x1c\x02x\x00\xfcMADRID, SPAIN - MARCH 01: Toni Kroos of Real Madrid CF acknowledges the audience after the Liga match between Real Madrid CF and FC Barcelona at Estadio Santiago Bernabeu on March 01, 2020 in Madrid, Spain. (Photo by Gonzalo Arroyo Moreno/Getty Images)\x1c\x02t\x00\x112020 Getty Images\x1c\x02n\x00\x0cGetty Images'}}
-
-- 2010_Bundesliga_WerderBremen.jpg: {'jfif': 257, 'jfif_version': (1, 1), 'dpi': (300, 300), 'jfif_unit': 1, 'jfif_density': (300, 300), 'exif': b'Exif\x00\x00II*\x00\x08\x00\x00\x00\x04\x00\x0e\x01\x02\x00\xfe\x00\x00\x00>\x00\x00\x00\x98\x82\x02\x00\x11\x00\x00\x00<\x01\x00\x00\x1a\x01\x05\x00\x01\x00\x00\x00M\x01\x00\x00\x1b\x01\x05\x00\x01\x00\x00\x00U\x01\x00\x00\x00\x00\x00\x00BREMEN, GERMANY - FEBRUARY 21:  Toni Kroos of Leverkusen runs with the ball during the Bundesliga match between Werder Bremen and Bayer Leverkusen at the Weser Stadium on February 21, 2010 in Bremen, Germany.  (Photo by Martin Rose/Bongarts/Getty Images)2010 Getty Images,\x01\x00\x00\x01\x00\x00\x00,\x01\x00\x00\x01\x00\x00\x00', 'xmp': b'<?xpacket begin="\xef\xbb\xbf" id="W5M0MpCehiHzreSzNTczkc9d"?>\n<x:xmpmeta xmlns:x="adobe:ns:meta/">\n\t<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">\n\t\t<rdf:Description rdf:about="" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:Iptc4xmpCore="http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/"   xmlns:GettyImagesGIFT="http://xmp.gettyimages.com/gift/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:plus="http://ns.useplus.org/ldf/xmp/1.0/"  xmlns:iptcExt="http://iptc.org/std/Iptc4xmpExt/2008-02-29/" xmlns:xmpRights="http://ns.adobe.com/xap/1.0/rights/" dc:Rights="2010 Getty Images" photoshop:Credit="Bongarts/Getty Images" GettyImagesGIFT:AssetID="96954218" xmpRights:WebStatement="https://www.gettyimages.com/eula?utm_medium=organic&amp;utm_source=google&amp;utm_campaign=iptcurl" plus:DataMining="http://ns.useplus.org/ldf/vocab/DMI-PROHIBITED-EXCEPTSEARCHENGINEINDEXING" >\n<dc:creator><rdf:Seq><rdf:li>Martin Rose</rdf:li></rdf:Seq></dc:creator><dc:description><rdf:Alt><rdf:li xml:lang="x-default">BREMEN, GERMANY - FEBRUARY 21:  Toni Kroos of Leverkusen runs with the ball during the Bundesliga match between Werder Bremen and Bayer Leverkusen at the Weser Stadium on February 21, 2010 in Bremen, Germany.  (Photo by Martin Rose/Bongarts/Getty Images)</rdf:li></rdf:Alt></dc:description>\n<plus:Licensor><rdf:Seq><rdf:li rdf:parseType=\'Resource\'><plus:LicensorURL>https://www.gettyimages.com/detail/96954218?utm_medium=organic&amp;utm_source=google&amp;utm_campaign=iptcurl</plus:LicensorURL></rdf:li></rdf:Seq></plus:Licensor>\n\t\t</rdf:Description>\n\t</rdf:RDF>\n</x:xmpmeta>\n<?xpacket end="w"?>\n', 'photoshop': {1028: b'\x1c\x02P\x00\x0bMartin Rose\x1c\x02x\x00\xfeBREMEN, GERMANY - FEBRUARY 21:  Toni Kroos of Leverkusen runs with the ball during the Bundesliga match between Werder Bremen and Bayer Leverkusen at the Weser Stadium on February 21, 2010 in Bremen, Germany.  (Photo by Martin Rose/Bongarts/Getty Images)\x1c\x02t\x00\x112010 Getty Images\x1c\x02n\x00\x15Bongarts/Getty Images'}}
-
-- 2014_Bundesliga_Leverkusen.jpg: {'jfif': 257, 'jfif_version': (1, 1), 'dpi': (300, 300), 'jfif_unit': 1, 'jfif_density': (300, 300), 'exif': b'Exif\x00\x00II*\x00\x08\x00\x00\x00\x04\x00\x0e\x01\x02\x00\xf4\x00\x00\x00>\x00\x00\x00\x98\x82\x02\x00\x11\x00\x00\x002\x01\x00\x00\x1a\x01\x05\x00\x01\x00\x00\x00C\x01\x00\x00\x1b\x01\x05\x00\x01\x00\x00\x00K\x01\x00\x00\x00\x00\x00\x00MUNICH, GERMANY - MARCH 15:  Toni Kroos of Muenchen in action during the Bundesliga match between FC Bayern Muenchen and Bayer 04 Leverkusen at Allianz Arena on March 15, 2014 in Munich, Germany.  (Photo by Lennart Preiss/Bongarts/Getty Images)2014 Getty Images,\x01\x00\x00\x01\x00\x00\x00,\x01\x00\x00\x01\x00\x00\x00', 'xmp': b'<?xpacket begin="\xef\xbb\xbf" id="W5M0MpCehiHzreSzNTczkc9d"?>\n<x:xmpmeta xmlns:x="adobe:ns:meta/">\n\t<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">\n\t\t<rdf:Description rdf:about="" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:Iptc4xmpCore="http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/"   xmlns:GettyImagesGIFT="http://xmp.gettyimages.com/gift/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:plus="http://ns.useplus.org/ldf/xmp/1.0/"  xmlns:iptcExt="http://iptc.org/std/Iptc4xmpExt/2008-02-29/" xmlns:xmpRights="http://ns.adobe.com/xap/1.0/rights/" dc:Rights="2014 Getty Images" photoshop:Credit="Bongarts/Getty Images" GettyImagesGIFT:AssetID="478928979" xmpRights:WebStatement="https://www.gettyimages.com/eula?utm_medium=organic&amp;utm_source=google&amp;utm_campaign=iptcurl" plus:DataMining="http://ns.useplus.org/ldf/vocab/DMI-PROHIBITED-EXCEPTSEARCHENGINEINDEXING" >\n<dc:creator><rdf:Seq><rdf:li>Lennart Preiss</rdf:li></rdf:Seq></dc:creator><dc:description><rdf:Alt><rdf:li xml:lang="x-default">MUNICH, GERMANY - MARCH 15:  Toni Kroos of Muenchen in action during the Bundesliga match between FC Bayern Muenchen and Bayer 04 Leverkusen at Allianz Arena on March 15, 2014 in Munich, Germany.  (Photo by Lennart Preiss/Bongarts/Getty Images)</rdf:li></rdf:Alt></dc:description>\n<plus:Licensor><rdf:Seq><rdf:li rdf:parseType=\'Resource\'><plus:LicensorURL>https://www.gettyimages.com/detail/478928979?utm_medium=organic&amp;utm_source=google&amp;utm_campaign=iptcurl</plus:LicensorURL></rdf:li></rdf:Seq></plus:Licensor>\n\t\t</rdf:Description>\n\t</rdf:RDF>\n</x:xmpmeta>\n<?xpacket end="w"?>\n', 'photoshop': {1028: b'\x1c\x02P\x00\x0eLennart Preiss\x1c\x02x\x00\xf4MUNICH, GERMANY - MARCH 15:  Toni Kroos of Muenchen in action during the Bundesliga match between FC Bayern Muenchen and Bayer 04 Leverkusen at Allianz Arena on March 15, 2014 in Munich, Germany.  (Photo by Lennart Preiss/Bongarts/Getty Images)\x1c\x02t\x00\x112014 Getty Images\x1c\x02n\x00\x15Bongarts/Getty Images'}}
-
-- Toni_Kroos_Heatmap_National_Team_2014_World_Cup_Final.png: {'Software': 'Matplotlib version3.9.2, https://matplotlib.org/', 'dpi': (99.9998, 99.9998)}
-
-- Toni_Kroos_Heatmap_2013-14_Champions_League_Final.png: {'Software': 'Matplotlib version3.9.2, https://matplotlib.org/', 'dpi': (99.9998, 99.9998)}
-
-- Toni_Kroos_Heatmap_2013-14_Key_Bundesliga_Match.png: {'Software': 'Matplotlib version3.9.2, https://matplotlib.org/', 'dpi': (99.9998, 99.9998)}
-
-- Toni_Kroos_Heatmap_2014-15_El_Clasico.png: {'Software': 'Matplotlib version3.9.2, https://matplotlib.org/', 'dpi': (99.9998, 99.9998)}
-
-- Toni_Kroos_Heatmap_2014-15_Champions_League_Match.png: {'Software': 'Matplotlib version3.9.2, https://matplotlib.org/', 'dpi': (99.9998, 99.9998)}
-
-- Toni_Kroos_Heatmap_2017-18_Champions_League_Final.png: {'Software': 'Matplotlib version3.9.2, https://matplotlib.org/', 'dpi': (99.9998, 99.9998)}
-
-- Toni_Kroos_Heatmap_2017-18_La_Liga_Key_Match.png: {'Software': 'Matplotlib version3.9.2, https://matplotlib.org/', 'dpi': (99.9998, 99.9998)}
-
-- Toni_Kroos_Heatmap_2022-23_El_Clasico.png: {'Software': 'Matplotlib version3.9.2, https://matplotlib.org/', 'dpi': (99.9998, 99.9998)}
-
-- Toni_Kroos_Heatmap_2022-23_Champions_League_Semi-Final.png: {'Software': 'Matplotlib version3.9.2, https://matplotlib.org/', 'dpi': (99.9998, 99.9998)}
-
-- Toni_Kroos_Heatmap_National_Team_2014_World_Cup_Semi-Final.png: {'Software': 'Matplotlib version3.9.2, https://matplotlib.org/', 'dpi': (99.9998, 99.9998)}
-
-Video Metadata:
-- Toni Kroos bricht Interview nach CL-Sieg ab - ＂Du hattest 90 Min. Zeit dir Fragen zu überlegen＂.webm: {'duration': 122.15, 'fps': 30.0, 'size': [1920, 1080]}
-
-- Toni Kroos rastet im Interview nicht aus.webm: {'duration': 98.03, 'fps': 60.0, 'size': [1280, 720]}
-
-- Toni Kroos' letztes Interview als Fußballprofi 😪.webm: {'duration': 146.41, 'fps': 50.0, 'size': [1920, 1080]}
-
-- Toni Kroos' Last Interview As A Real Madrid Player 💔🥹 ｜ LiveScore.webm: {'duration': 91.91, 'fps': 25.0, 'size': [1920, 1080]}
-
-- Vallah Toni Kroos hat nichts gemacht ｜ DAZN.webm: {'duration': 45.35, 'fps': 25.0, 'size': [1280, 720]}
-
-- „Das hebt ihn vom Rest ab!“ ｜ ＂Bromance＂ mit Thomas Müller & Toni Kroos.webm: {'duration': 830.59, 'fps': 25.0, 'size': [1920, 1080]}
-
-- How many Chelsea players can you name in 30 seconds？ ｜ Alaba & Kroos.webm: {'duration': 506.63, 'fps': 25.0, 'size': [1920, 1080]}
-
-- Toni Kroos spots fan holding a 'Kroos is the best' sign ❤️.webm: {'duration': 14.17, 'fps': 30.0, 'size': [1080, 1920]}
-
-- Carragher ran off to get an interview with Kroos! 😅🎤.webm: {'duration': 40.87, 'fps': 30.0, 'size': [1080, 1920]}
-
-- Kroos Effects 🪄.webm: {'duration': 24.73, 'fps': 30.0, 'size': [1080, 1350]}
-
-- Toni Kroos Not Usually this Angry 😳.webm: {'duration': 37.13, 'fps': 50.0, 'size': [1920, 1080]}
-
-- Which Real Madrid player could be an actor？ ｜ Kroos & Modrić ｜ TEAMMATES.webm: {'duration': 276.23, 'fps': 25.0, 'size': [1920, 1080]}
-
-- Toni Kroos teaches YOU how to be a GREAT midfielder.webm: {'duration': 236.71, 'fps': 25.0, 'size': [3840, 2160]}
-
-- ＂You ask sh＊t questions＂-Toni Kroos Leaves Interview Angrily after Champions League win vs Liverpool.mkv: {'duration': 56.83, 'fps': 30.0, 'size': [1920, 1080]}
-
-- TONI KROOS' LAST MATCH AT SANTIAGO BERNABEU WENT LIKE THIS 🥲🩶 #football #realmadrid #shorts.webm: {'duration': 30.15, 'fps': 30.0, 'size': [1080, 1920]}
-
-- TONI KROOS FOOTBALL MASTERCLASS ｜ INSANE ACCURACY 🎯🤯.webm: {'duration': 754.15, 'fps': 25.0, 'size': [1920, 1080]}
-
-- We only have two more matches to see Toni Kroos in Real Madrid kit. 💔.webm: {'duration': 49.45, 'fps': 29.97002997002997, 'size': [1080, 1920]}
-
-- Why Toni Kroos Is Retiring After The Euros ｜ #euro2024 #realmadrid.webm: {'duration': 53.95, 'fps': 25.0, 'size': [1080, 1920]}
-
-- Interview with Real Madrid midfielder Toni Kroos on Champions League Final.mkv: {'duration': 193.87, 'fps': 25.0, 'size': [1920, 1080]}
-
-- Toni Kroos： ＂Nach meinem Pass startet das Highlight-Video＂ ｜ The MIXTAPE.webm: {'duration': 2567.91, 'fps': 25.0, 'size': [3840, 2160]}
-
-- how did Real Madrid players try to convince Toni Kroos to not retire.😳💔.webm: {'duration': 42.95, 'fps': 30.0, 'size': [1080, 1920]}
-
-- ＂Ronaldo Speaks on Toni Kroos Retiring Early – I Support Him!＂ #realmadrid #urcristiano #tonikroos.webm: {'duration': 38.17, 'fps': 30.0, 'size': [1080, 1920]}
-
-- Jude Bellingham On Playing With The Legend Toni Kroos ｜ Jude Extras.webm: {'duration': 206.31, 'fps': 25.0, 'size': [1920, 1080]}
-
-- REACTIONS FROM TEAMMATES TO TONI KROOS' RETIREMENT ANNOUNCEMENT 😥 #football #realmadrid #ronaldo.webm: {'duration': 31.29, 'fps': 30.0, 'size': [1440, 2560]}
+For queries or collaborations:
+- Name: Faiz Karol
+- Email: karol.faiz@yahoo.com
 
